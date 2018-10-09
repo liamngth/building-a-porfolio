@@ -1,0 +1,83 @@
+/* Header CSS */
+#page-header img {
+  width: 100%;
+  height: 100%;
+}
+
+#page-header .port-item {
+  width: 30%;
+}
+
+#page-header .port-item:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+#page-header .display-4 {
+  font-size: 4.5vw;
+}
+
+.bg-black {
+  background: #000;
+  color: #fff;
+}
+
+.img-fill {
+  display: block;
+  width: 100%;
+  height: auto
+}
+
+/* ---------------- */
+
+hr {
+  margin: 1rem -1rem 1rem;
+  border-top: 3px solid #7d97ad;
+}
+
+/* Home section CSS */
+
+.display-4 {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.2em;
+}
+
+.display-5 {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.2em;
+}
+
+/* Media Query Section */
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .display-5 {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1em;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .display-5 {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.2em;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .custom-padding1 {
+    padding-right: 15px !important;
+  }
+
+  .custom-padding2 {
+    padding-left: 7.5px !important;
+    padding-right: 7.5px !important
+  }
+
+  .custom-padding3 {
+    padding-left: 15px !important;
+  }
+}
